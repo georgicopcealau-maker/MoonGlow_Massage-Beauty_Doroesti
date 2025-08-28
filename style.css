@@ -217,3 +217,36 @@ p{ line-height:1.6; color:#333; }
   display:inline-block; padding: 6px 10px; border-radius: 999px; background: rgba(212,175,55,0.18); border: 1px solid rgba(212,175,55,0.3);
   margin: 6px 8px; font-weight:700;
 }
+.price-table {
+  width: 80%;              /* tabel centrat */
+  max-width: 900px;        /* limită pe lățime */
+  margin: 30px auto;       /* spațiu sus/jos și centrare */
+  border-collapse: collapse;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.price-table th, 
+.price-table td {
+  padding: 14px 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.price-table th {
+  background: #d4af37;     /* auriu */
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.price-table tr:nth-child(even) {
+  background: #f9f9f9;     /* rânduri alternate */
+}
+
+.price-table tr:hover {
+  background: #f1f1f1;     /* efect hover */
+}
